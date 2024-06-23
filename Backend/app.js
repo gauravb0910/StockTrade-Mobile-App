@@ -8,10 +8,10 @@ const bodyParser = require('body-parser');
 app.use(cors())
 
 const PORT = process.env.PORT || 8080;
-const FINHUB_API_KEY = 'cmvkv4hr01qhorpps1mgcmvkv4hr01qhorpps1n0'
-const POLYGON_IO_API_KEY = '7pY23MpOHkuPCDQu_XMQjDTWl3xpJdmh'
+const FINHUB_API_KEY = '***'
+const POLYGON_IO_API_KEY = '***'
 
-const uri = "mongodb+srv://gaurav-test:R2lp475nwJbBDNSI@cluster0.se4dyfv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const uri = "mongodb+srv://***:***@cluster0.se4dyfv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 const client = new MongoClient(uri);
 
 app.use(bodyParser.json());
